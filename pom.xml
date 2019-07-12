@@ -21,6 +21,7 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- For testing purpose using Spock -->
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId>
@@ -31,6 +32,12 @@
             <groupId>org.spockframework</groupId>
             <artifactId>spock-core</artifactId>
             <version>1.3-groovy-2.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+            <version>1.9.14</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -45,6 +52,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <!-- For testing purpose using Spock -->
             <plugin>
                 <groupId>org.codehaus.gmaven</groupId>
                 <artifactId>groovy-maven-plugin</artifactId>

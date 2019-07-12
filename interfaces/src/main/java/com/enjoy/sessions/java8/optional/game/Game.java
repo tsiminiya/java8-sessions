@@ -21,7 +21,7 @@ public class Game {
     }
 
     private GameChannel getGameChannel() {
-        return getGameChannel();
+        return gameChannel;
     }
 
 }
