@@ -11,6 +11,7 @@
 
     <modules>
         <module>interfaces</module>
+        <module>streams</module>
     </modules>
 
     <dependencies>
